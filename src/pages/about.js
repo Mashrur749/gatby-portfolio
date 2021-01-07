@@ -11,15 +11,16 @@ const About = ({
   },
 }) => {
   const { info, stack, title, image } = nodes[0]
-
+  
   return (
     <Layout>
       <SEO title="About" description="about web dev"/>
       <section className="about-page">
         <div className="section-center about-center">
-          <Image fluid={image.childImageSharp.fluid} className="about-img" />
+          <Image fluid={image.childImageSharp.fluid} className="about-img" />        
           <article className="about-text">
             <Title title={title} />
+            <p>Hi! Thank you for taking the time to look around.</p>
             <p>{info}</p>
             <div className="about-stack">
               {stack.map(item => {

@@ -8,6 +8,8 @@ import {
   FaTwitterSquare,
 } from "react-icons/fa"
 
+import {AiTwotoneMail} from "react-icons/ai"
+
 const data = [
   {
     id: 1,
@@ -18,6 +20,11 @@ const data = [
     id: 2,
     icon: <FaLinkedin className="social-icon"></FaLinkedin>,
     url: "https://www.linkedin.com/in/musaddiqur-rahman/",
+  },
+  {
+    id: 3,
+    icon: <AiTwotoneMail className="social-icon"></AiTwotoneMail>,
+    url: "mailto:rmashrur749@gmail.com"
   }
 ]
 const links = data.map(link => {

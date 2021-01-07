@@ -197,6 +197,7 @@ p {
 }
 .social-link {
   font-size: 1.75rem;
+  margin: 1px;
   color: var(--clr-grey-1);
   transition: var(--transition);
 }
@@ -711,7 +712,7 @@ Projects
 }
 .project-icon {
   color: var(--clr-primary-5);
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-right: 0.5rem;
   transition: var(--transition);
 }
