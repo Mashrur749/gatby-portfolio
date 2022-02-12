@@ -1,11 +1,7 @@
 import React from "react"
 import {
-  FaFacebookSquare,
   FaGithubSquare,
   FaLinkedin,
-  FaDribbbleSquare,
-  FaBehanceSquare,
-  FaTwitterSquare,
 } from "react-icons/fa"
 
 import {AiTwotoneMail} from "react-icons/ai"

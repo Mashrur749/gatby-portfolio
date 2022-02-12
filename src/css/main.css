@@ -234,9 +234,10 @@ Navbar
   align-items: center;
 }
 .nav-header img {
-  margin-bottom: 0.375rem;
+  margin: 0.375rem 0;
   box-shadow: 0 0 10px 10px rgba(106, 255, 243, .2);
   background-color: rgba(106, 255, 243, .2);
+  width: 20vw;
 }
 .toggle-btn {
   font-size: 2rem;
@@ -252,7 +253,22 @@ Navbar
 .nav-links {
   display: none;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .nav-header img {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  .nav-header img {
+    width: 50vw;
+  }
+}
+
 @media screen and (min-width: 768px) {
+
   .toggle-btn {
     display: none;
   }
@@ -535,6 +551,7 @@ Services
   background: var(--clr-primary-9);
 }
 @media screen and (min-width: 676px) {
+
   .services-center {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -630,6 +647,7 @@ Jobs
   }
   .job-btn {
     margin-bottom: 1rem;
+    font-size: 1em;
   }
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
@@ -638,6 +656,17 @@ Jobs
     box-shadow: -2px 0 var(--clr-primary-5);
   }
 }
+
+
+
+@media screen and (max-width: 576px) {
+  .job-btn {
+    font-size: 1em;
+  }
+}
+
+
+
 
 /*
 =============== 
@@ -701,6 +730,7 @@ Projects
   background: var(--clr-grey-9);
   color: var(--clr-grey-5);
   margin-right: 0.5rem;
+  margin-top: 0.5rem;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
   text-transform: uppercase;
